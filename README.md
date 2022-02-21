@@ -1,7 +1,9 @@
-this is docker-compose project for django implementation
+This is docker-compose project for django implementation
 
-basic command list
+=======
+Command list, ordered by job sequences
 
+start project, app
 ```
 docker-compose run web django-admin startproject alpha .
 docker-compose run web python manage.py startapp news
@@ -18,4 +20,5 @@ docker-compose run web python manage.py sqlmigrate news 0001
 docker-compose run web python manage.py  migrate
 docker-compose run web python manage.py  check
 ```
+
 So now, Let's play with  'python manage.py shell'
