@@ -1,8 +1,16 @@
 from django.db import models
 
-class Article(models.Model):
-    subject_text = models.CharField(max_length=200)
-    contents_text = models.CharField(max_length=3000)
-    update_date = models.DateTimeField('updated date')
-    writer_text = models.CharField(max_length=50)
+from django.forms import ModelForm
 
+class Article(models.Model):
+    subject= models.CharField(max_length=200)
+    content= models.CharField(max_length=3000)
+    date= models.DateTimeField('updated date')
+    writer= models.CharField(max_length=50)
+    def __str__(self):
+        return f"{subject} by {writer} on {date}"
+
+class ArticlForm(ModelForm):
+    class Meta:
+        model = Article
+        fields=['subject','content','writer']
