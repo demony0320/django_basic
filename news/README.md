@@ -1,7 +1,7 @@
 
-New App
+News App
 
-#Writing page using ckeditor with model form
+#Writing detail page
 ```
-https://woongsin94.tistory.com/102
+
 ```
