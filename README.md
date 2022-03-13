@@ -1,6 +1,11 @@
 This is docker-compose project for django implementation
-
 =======
+About Cgroup Mount Error
+```
+sudo mkdir /sys/fs/cgroup/systemd
+sudo mount -t cgroup -o none,name=systemd cgroup /sys/fs/cgroup/systemd
+```
+
 Command list, ordered by job sequences
 
 start project, app
