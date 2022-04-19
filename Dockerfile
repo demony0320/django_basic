@@ -15,7 +15,7 @@ RUN chown -R ${user} /code
 
 RUN curl -fsSL https://deb.nodesource.com/setup_17.x | bash -
 RUN apt-get install -y nodejs
-RUN npm install --save react-draft-wysiwyg draft-js
+RUN npm install --save --legacy-peer-deps react-draft-wysiwyg draft-js
 
 USER ${user}
 RUN python -m pip install --upgrade pip
