@@ -1,0 +1,7 @@
+{ 
+    "access_key" : "${accesskeyfromupbit}" ,
+    "secret_key" : "${secretkeyfromupbit}" ,
+    "server_url" : "https://api.upbit.com"
+    "telegram_token" : "${telegram_token}",
+    "telegram_target" : [ ${target_telegram_room}, ...]
+}
