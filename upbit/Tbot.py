@@ -42,3 +42,11 @@ class Tbot:
         # Execute broadcaster
         for user_id in self.TARGET_IDS:
             executor.start(self.dp, self.send_message(user_id, text))
+
+def main():
+    #tbot = Tbot('2043458482:AAGRvooNJ4B7m4XHke-fhBgmgqUvz-sU1Ko',[-341574804])
+    tbot = Tbot('2043458482:AAGRvooNJ4B7m4XHke-fhBgmgqUvz-sU1Ko',[-572675785])
+    tbot.broadcast('mynameisjeff')
+
+if __name__ == "__main__":
+    main()

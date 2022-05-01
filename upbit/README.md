@@ -17,3 +17,7 @@ write your own config.json based on sample.config.json
 # small targets
 integrated with telegram bot 
 immigrated to docker images ( better with docker-compose , best with kubernetes)
+
+# Lets try candle analyzer 
+# Its better to make another static functions on another class?
+https://learn.bybit.com/candlestick/best-candlestick-patterns/
